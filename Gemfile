@@ -25,7 +25,7 @@ end
 
 
 group :test do
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
