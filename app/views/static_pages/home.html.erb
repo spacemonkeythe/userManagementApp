@@ -1,1 +1,10 @@
-<h1>Welcome to TDD demo-app</h1>
+<% provide(:title, "Home") %>
+<div class="center jumbotron hero-spacer">
+  <h1 class="text-center">Welcome to TDD demo-app</h1>
+
+  <h2>
+    This is the home page for the <a href="https://twitter.com/spacemonkeyThe">spacemonkeythe's</a> sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
